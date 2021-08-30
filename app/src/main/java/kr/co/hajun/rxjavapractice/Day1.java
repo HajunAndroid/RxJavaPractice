@@ -8,7 +8,9 @@ import android.util.Log;
 import java.util.Arrays;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+import io.reactivex.rxjava3.core.Flowable;
+
+public class Day1 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,6 +30,6 @@ public class MainActivity extends AppCompatActivity {
                         .filter(number -> number > 6 && (number % 2 != 0))
                         .mapToInt(number -> number)
                         .sum();
-        
+
     }
 }
