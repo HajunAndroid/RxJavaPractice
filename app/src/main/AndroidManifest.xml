@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RxJavaPractice">
         <activity
+            android:name=".CompletableCreateExample"
+            android:exported="true" />
+        <activity
+            android:name=".MaybeCreateExample"
+            android:exported="true" />
+        <activity
+            android:name=".SingleCreateExample"
+            android:exported="true" />
+        <activity
             android:name=".Day2"
             android:exported="true" />
         <activity
