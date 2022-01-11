@@ -5,4 +5,6 @@ public class practice {
     int b =2;
     int c =3;
     int gg = 10;
+    int d =2;
+    int k =10;
 }
